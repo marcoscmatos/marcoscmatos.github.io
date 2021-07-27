@@ -1,0 +1,50 @@
+/* everyoneeeeeeee*/
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+}
+
+/* Hearder   */
+.header {
+  background-color: black;
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+header .logo {
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  justify-content: end;
+}
+
+header nav li {
+  text-decoration: underline;
+  color: seashell;
+  inline-size: auto;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+.container {
+  display: flex;
+}
+
+#link:any-link {
+  color: seashell;
+}
