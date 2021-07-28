@@ -1,0 +1,35 @@
+html,
+body {
+  font-family: "Mako", sans-serif;
+  color: #ca7309;
+  background-color: #252526;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  color: #a1873e;
+}
+
+h2,
+a {
+  font-family: "Catamaran", sans-serif;
+  color: #56544e;
+}
+
+/*
+Color scheme:
+
+
+p {
+    color: #ca7309,
+           #a1873e,
+           #56544e,
+           #77503b,
+           #252526;
+}
+
+Fonts::
+
+Main: https://fonts.google.com/specimen/Ubuntu 
+secundary: https://fonts.google.com/specimen/Catamaran
+Terciary : https://fonts.google.com/specimen/Mako
+*/
