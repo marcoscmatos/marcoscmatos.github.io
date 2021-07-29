@@ -1,15 +1,17 @@
 /* everyoneeeeeeee*/
-html {
+html,
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   display: flex;
+  flex-direction: column;
 }
 
 /* Hearder   */
-.header {
+header {
   background-color: black;
   opacity: 1;
   position: fixed;
@@ -19,9 +21,18 @@ html {
   justify-content: space-between;
   height: 69px;
   border-bottom: 1px solid seashell;
+  align-items: center;
 }
+
 header .logo {
   align-items: center;
+  height: 50px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+header .logo img {
+  height: 100%;
 }
 header nav ul {
   display: flex;
@@ -32,6 +43,7 @@ header nav li {
   text-decoration: underline;
   color: seashell;
   inline-size: auto;
+  margin: 10px;
 }
 
 nav a {
@@ -41,10 +53,47 @@ nav a {
   color: #4a4a4a;
 }
 
+main .principal {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+main #mission {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+
+  flex-direction: column;
+  height: 100px;
+}
+
+main #mission h2 {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+main #mission h4 {
+  font-size: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 1px;
+  margin-top: 70px;
+}
 .container {
   display: flex;
 }
-
+/*
 #link:any-link {
   color: seashell;
 }
+*/
