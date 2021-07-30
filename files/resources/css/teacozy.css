@@ -16,6 +16,7 @@ h2 {
 }
 
 h4 {
+  margin-top: 10px;
   font-size: 1em;
 }
 
@@ -102,4 +103,28 @@ main {
   margin: 10px auto;
   justify-content: center;
   align-items: center;
+}
+
+main .menu #phrases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.flavor {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
+  size: 100%;
 }
