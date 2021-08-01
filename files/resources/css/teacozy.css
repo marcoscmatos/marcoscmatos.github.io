@@ -15,6 +15,10 @@ h2 {
   font-size: 1.5em;
 }
 
+h3 {
+  padding: 10px;
+  font-size: 1.17em;
+}
 h4 {
   margin-top: 10px;
   font-size: 1em;
@@ -127,4 +131,47 @@ main .menu #phrases {
   height: 200px;
   width: 300px;
   size: 100%;
+}
+
+main .location {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+
+  background-position: auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+main .adress {
+  display: flex;
+}
+
+main .adress .city {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin-top: 15px;
+  margin: 15px 20px;
+  font-display: 1;
+  text-align: center;
+}
+contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer {
+  margin: 20px;
 }
